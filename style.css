@@ -142,3 +142,11 @@ h1 {
     font-weight: bold;
     border-radius: 10px;
 }
+
+/* Footer */
+
+footer {
+    padding: 30px;
+    color: #e5e7eb;
+    text-align: center;
+}
