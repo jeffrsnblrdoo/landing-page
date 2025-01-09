@@ -1,0 +1,70 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header,
+#hero,
+footer {
+    background-color: #1f2937;
+}
+
+/* Hero */
+
+nav a,
+.left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 25%;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
