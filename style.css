@@ -92,3 +92,29 @@ button {
 .image {
     width: 150px;
 }
+
+/* Quote */
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+}
+
+#quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.content {
+    width: 48%;
+}
+
+.content h3 {
+    text-align: right;
+}
+
+/* CTA */
